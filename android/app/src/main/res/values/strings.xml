@@ -2,5 +2,5 @@
     <string name="app_name">RNBGExample</string>
     <string name="account_type">com.marianhello.RNBGExample.account</string>
     <string name="content_authority">com.marianhello.RNBGExample.authority</string>    
-    <string name="google_api_key">{{Your Google maps API Key Here}}</string>    
+    <string name="google_api_key">AIzaSyAr26VBNUx4qDrRD3HCe32U-XXW5EmEdlo</string>    
 </resources>

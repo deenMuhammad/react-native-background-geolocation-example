@@ -139,7 +139,13 @@ android {
         }
     }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
+            // Caution! In production, you need to generate your own keystore file.
+            // see https://facebook.github.io/react-native/docs/signed-apk-android.
+            signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
@@ -166,7 +172,6 @@ android {
 dependencies {
     compile project(':@mauron85_react-native-background-geolocation')
     compile project(':react-native-vector-icons')
-    compile project(':react-native-maps')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.facebook.react:react-native:+"  // From node_modules
     // why are these neccessary?
