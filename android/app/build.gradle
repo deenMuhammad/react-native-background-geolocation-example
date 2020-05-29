@@ -179,7 +179,7 @@ dependencies {
     compile "com.google.android.gms:play-services-base:11+"
     compile 'com.google.android.gms:play-services-location:11+'
     compile 'com.google.android.gms:play-services-maps:11+'
-
+    implementation project(':react-native-maps')
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermesvm/android/";
         debugImplementation files(hermesPath + "hermes-debug.aar")

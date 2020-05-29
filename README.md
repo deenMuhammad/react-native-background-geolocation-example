@@ -4,8 +4,7 @@
 
 # Intro
 
-This is an example app of [@mauron85/react-native-background-geolocation](https://www.npmjs.com/package/@mauron85/react-native-background-geolocation) component.
-
+This is an example app of [react-native-background-geolocation]
 # How to build
 
 In cloned directory:
